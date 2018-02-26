@@ -13,9 +13,9 @@
   position: absolute
   height: 100%
   width: 100%
-  background-color: #2A86FF
+  background-color: #151515
   transform: translateY(-100%)
-  animation: curtain 6s cubic-bezier(0.6, 0.2, 0.5, 1) infinite 5.2s
+  animation: curtain 8s cubic-bezier(0.6, 0.2, 0.5, 1) infinite 6s
 
 @keyframes curtain
   0%
@@ -40,28 +40,24 @@
   background-size: cover
   background-repeat: no-repeat
   transform-origin: center center 0
+  background-position: center
   transform: scale(1.10)
 .container__cover
   &:nth-child(1)
-    // background-image: url("../img/hero/hero1.jpg")
-    background-color: orange
-    animation: bg-opacity-0 30s infinite, bg-zoomin 6s forwards ease-in infinite
+    background-image: url("../img/01.jpg")
+    animation: bg-opacity-0 40s infinite, bg-zoomin 8s forwards ease-in infinite
   &:nth-child(2)
-    // background-image: url("../img/hero/hero2.jpg")
-    background-color: red
-    animation: bg-opacity-1 30s infinite, bg-zoomin 6s forwards ease-in infinite
+    background-image: url("../img/02.jpg")
+    animation: bg-opacity-1 40s infinite, bg-zoomin 8s forwards ease-in infinite
   &:nth-child(3)
-    // background-image: url("../img/hero/hero3.jpg")
-    background-color: pink
-    animation: bg-opacity-2 30s infinite, bg-zoomin 6s forwards ease-in infinite
+    background-image: url("../img/03.jpg")
+    animation: bg-opacity-2 40s infinite, bg-zoomin 8s forwards ease-in infinite
   &:nth-child(4)
-    // background-image: url("../img/hero/hero4.jpg")
-    background-color: yellow
-    animation: bg-opacity-3 30s infinite, bg-zoomin 6s forwards ease-in infinite
+    background-image: url("../img/04.jpg")
+    animation: bg-opacity-3 40s infinite, bg-zoomin 8s forwards ease-in infinite
   &:nth-child(5)
-    // background-image: url("../img/hero/hero5.jpg")
-    background-color: purple
-    animation: bg-opacity-4 30s infinite, bg-zoomin 6s forwards ease-in infinite
+    background-image: url("../img/05.jpg")
+    animation: bg-opacity-4 40s infinite, bg-zoomin 8s forwards ease-in infinite
 
 @keyframes bg-zoomin
   0%
